@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+var me = {
+  name: "Daniel",
+  age:28
+}
+alert(me.name);
 
 
 ////////// PROBLEM 2 //////////
@@ -26,6 +30,15 @@
 */
 
 //Code here
+var favoriteThings ={
+  band: "Interpol",
+  food: "Tikka Masala",
+  person: "My Father",
+  book: "D.O.D.O.",
+  movie: "Baraka",
+  holiday: "Christmas"
+
+}
 
 
 
@@ -34,6 +47,8 @@
 */
 
 //Code here
+favoriteThings.car="Civic";
+favoriteThings.brand="Toyota";
 
 
 
@@ -41,7 +56,10 @@
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
+favoriteThings.food="Chicken Nuggets";
+favoriteThings.book="Harry Potter";
+
+console.log(favoriteThings);
 
 
 
@@ -56,6 +74,11 @@
 */
 
 //Code here
+var backPack={};
+var item = 'firstPocket';
+backPack[item]='chapstick';
+backPack.color="black";
+
 
 
 
@@ -64,6 +87,7 @@
 */
 
 //Code here
+alert(backPack);
 
 
 
@@ -75,7 +99,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
 //Code here
 
-
+console.log(backPack);
 
 ////////// PROBLEM 4 //////////
 
@@ -97,6 +121,10 @@ var user2 = {
 */
 
 //Code Here
+user2.name = "Tyler S. McGinnis";
+user2.email = "tyler.mcginnis@devmounta.in";
+
+
 
 
 
@@ -120,6 +148,7 @@ var user2 = {
 */
 
 //Code Here
+var methodCollection = {};
 
 
 
@@ -129,6 +158,14 @@ var user2 = {
 */
 
 //Code Here
+var methodCollection = {
+  method1: alertHello(){
+    alert("hello");
+  }
+  method2: logHello(){
+    console.log("Hello");
+  }
+}
 
 
 
@@ -137,6 +174,8 @@ var user2 = {
 */
 
 //Code Here
+methodCollection.alertHello();
+methodCollection.logHello();
 
 
 
